@@ -1,0 +1,143 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #141e30; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #243b55,
+    #141e30
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #243b55,
+    #141e30
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+}
+
+footer {
+  margin: auto auto 0 auto;
+
+  text-align: center;
+  color: white;
+  background: black;
+  width: 100%;
+  padding: 20px;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto 2em auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  margin: 0 auto;
+  width: 50%;
+  height: 100%;
+}
+
+.title {
+  font-size: 30px;
+  text-shadow: 2px 2px 2px black;
+}
+
+.subtitle {
+  font-size: 20px;
+  text-shadow: 2px 2px 2px black;
+}
+
+.subtitle--white,
+.title--white {
+  color: white;
+}
+
+.subtitle--grey,
+.title--grey {
+  color: grey;
+}
+
+.columns {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  flex: 1;
+  margin-bottom: 1em;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social span:not(:last-child) {
+  margin-right: 1.5em;
+}
+
+.column:not(:last-child) {
+  margin-right: 1em;
+}
+
+.box {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+  box-shadow: 2px 2px 0.5em black;
+  height: 100%;
+}
+
+.content {
+  padding: 20px;
+  color: white;
+}
+
+.content__title {
+  margin-bottom: 20px;
+}
+
+.is-centered {
+  text-align: center;
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.projects:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.projects__logo {
+  border: 2px solid white;
+  box-shadow: 2px 2px 1em black;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    flex-wrap: nowrap;
+    width: 80%;
+  }
+
+  .column {
+    width: 100%;
+  }
+
+  .columns {
+    flex-direction: column;
+  }
+}
