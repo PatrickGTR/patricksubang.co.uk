@@ -22,12 +22,13 @@ export default () => {
               >
                 About me
               </h1>
-              Hey there! I love programming as a hobby and hoping to make a
-              career out of it. I like building discord bots, web applications
-              and APIs. I love learning new things whether it comes to
-              programming or fitness and do it to my best ability. I'm
-              originally from Philippines but currently residing in the county
-              of East Sussex, United Kingdom.
+              <strong>Hey there!</strong>
+              <br />I love programming and hoping to make a career out of it, I
+              love building and designing websites. I love learning new things
+              whether it comes to programming or fitness and do it to my best
+              ability.
+              <br /> I'm originally from Philippines but currently residing in
+              the county of East Sussex, United Kingdom.
             </article>
           </div>
         </div>
