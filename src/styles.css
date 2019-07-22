@@ -19,6 +19,24 @@ body {
   font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
 }
 
+figure {
+  display: table;
+  margin: 0px;
+}
+
+figure img {
+  display: block;
+}
+
+figcaption {
+  display: table-caption;
+  caption-side: bottom;
+
+  border: 1px solid white;
+  box-shadow: 3px 3px 1em black;
+  padding: 10px;
+}
+
 .resume-btn {
   background: #3f51b5;
   padding: 10px 20px;
@@ -139,8 +157,6 @@ footer {
 }
 
 .projects__logo {
-  border: 2px solid white;
-  box-shadow: 2px 2px 1em black;
   width: 100%;
   max-width: 400px;
   height: auto;

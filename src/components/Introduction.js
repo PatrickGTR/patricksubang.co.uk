@@ -32,7 +32,7 @@ export default () => {
                   "content__title",
                   "title",
                   "title--white",
-                  "is-centered"
+                  "is-centered",
                 ].join(" ")}
               >
                 About me
@@ -55,7 +55,7 @@ export default () => {
                   "content__title",
                   "title",
                   "title--white",
-                  "is-centered"
+                  "is-centered",
                 ].join(" ")}
               >
                 Contact me!
@@ -85,7 +85,7 @@ export default () => {
                   "content__title",
                   "title",
                   "title--white",
-                  "is-centered"
+                  "is-centered",
                 ].join(" ")}
               >
                 Personal Projects
@@ -101,22 +101,37 @@ export default () => {
                     <div className="column">
                       <div className="projects">
                         <AnimatedZoom scale={1.1}>
-                          <img
-                            className="projects__logo"
-                            src="https://i.imgur.com/KV6uXsE.jpg"
-                            alt="Fortnite Stats"
-                          />
+                          <figure>
+                            <img
+                              className="projects__logo"
+                              src="https://i.imgur.com/KV6uXsE.jpg"
+                              alt="Fortnite Stats"
+                            />
+                            <figcaption>
+                              Project done in React and Next to show Fortnite
+                              player statistics, news and item shop.
+                            </figcaption>
+                          </figure>
                         </AnimatedZoom>
                       </div>
                     </div>
                     <div className="column">
                       <div className="projects">
                         <AnimatedZoom scale={1.1}>
-                          <img
-                            className="projects__logo"
-                            src="https://i.imgur.com/d8RmeyB.jpg"
-                            alt="User Control Panel"
-                          />
+                          <figure>
+                            <img
+                              className="projects__logo"
+                              src="https://i.imgur.com/d8RmeyB.jpg"
+                              alt="User Control Panel"
+                            />
+                            <figcaption>
+                              A User control panel made in Flask and Python. It
+                              has basic login system that allows user to look at
+                              their in-game statistics. It also has a basic CMS
+                              which allows admins to post/delete/edit news which
+                              is shown on website's front page.
+                            </figcaption>
+                          </figure>
                         </AnimatedZoom>
                       </div>
                     </div>
@@ -134,22 +149,34 @@ export default () => {
                     <div className="column">
                       <div className="projects">
                         <AnimatedZoom scale={1.1}>
-                          <img
-                            className="projects__logo"
-                            src="https://i.imgur.com/rNKO8Fb.jpg"
-                            alt="Portfolio Template"
-                          />
+                          <figure>
+                            <img
+                              className="projects__logo"
+                              src="https://i.imgur.com/rNKO8Fb.jpg"
+                              alt="Portfolio Template"
+                            />
+                            <figcaption>
+                              A simple elegant portfolio template made with
+                              React and Next
+                            </figcaption>
+                          </figure>
                         </AnimatedZoom>
                       </div>
                     </div>
                     <div className="column">
                       <div className="projects">
                         <AnimatedZoom scale={1.1}>
-                          <img
-                            className="projects__logo"
-                            src="https://i.imgur.com/EMtU2yD.jpg"
-                            alt="Rockford Roleplay Website"
-                          />
+                          <figure>
+                            <img
+                              className="projects__logo"
+                              src="https://i.imgur.com/EMtU2yD.jpg"
+                              alt="Rockford Roleplay Website"
+                            />
+                            <figcaption>
+                              A responsive design made of HTML5 and CSS3 made
+                              for GTA V Multiplayer server.
+                            </figcaption>
+                          </figure>
                         </AnimatedZoom>
                       </div>
                     </div>
@@ -163,22 +190,33 @@ export default () => {
                     <div className="column">
                       <div className="projects">
                         <AnimatedZoom scale={1.1}>
-                          <img
-                            className="projects__logo"
-                            src="https://i.imgur.com/gIwA6Lk.jpg"
-                            alt="Old Portfolio"
-                          />
+                          <figure>
+                            <img
+                              className="projects__logo"
+                              src="https://i.imgur.com/gIwA6Lk.jpg"
+                              alt="Old Portfolio"
+                            />
+                            <figcaption>
+                              My old portfolio (My very first website)
+                            </figcaption>
+                          </figure>
                         </AnimatedZoom>
                       </div>
                     </div>
                     <div className="column">
                       <div className="projects">
                         <AnimatedZoom scale={1.1}>
-                          <img
-                            className="projects__logo"
-                            src="https://i.imgur.com/4Hp5K03.jpg"
-                            alt="Madgex Assignment"
-                          />
+                          <figure>
+                            <img
+                              className="projects__logo"
+                              src="https://i.imgur.com/4Hp5K03.jpg"
+                              alt="Madgex Assignment"
+                            />
+                            <figcaption>
+                              An assignment task set by Madgex, to convert an
+                              image of a web design into HTML/CSS/JS
+                            </figcaption>
+                          </figure>
                         </AnimatedZoom>
                       </div>
                     </div>
