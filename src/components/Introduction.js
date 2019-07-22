@@ -4,7 +4,7 @@ import PageLayout from "./PageLayout";
 import { useSpring, animated } from "react-spring";
 import { Spring } from "react-spring/renderprops";
 
-import { FaGithub, FaEnvelopeSquare } from "react-icons/fa";
+import { FaGithubSquare, FaEnvelopeSquare, FaBook } from "react-icons/fa";
 
 const AnimatedZoom = ({ children, scale = 1.5 }) => {
   const [hover, setHover] = useState(false);
@@ -63,12 +63,38 @@ export default () => {
               <div className="social">
                 <AnimatedZoom>
                   <span>
-                    <FaGithub size="3em" />
+                    <a
+                      href="https://www.github.com/PatrickGTR"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <FaGithubSquare size="3em" />
+                      <p>Github</p>
+                    </a>
                   </span>
                 </AnimatedZoom>
                 <AnimatedZoom>
                   <span>
-                    <FaEnvelopeSquare size="3em" />
+                    <a
+                      href="mailto:patricksubang@live.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <FaEnvelopeSquare size="3em" />
+                      <p>Email</p>
+                    </a>
+                  </span>
+                </AnimatedZoom>
+                <AnimatedZoom>
+                  <span>
+                    <a
+                      href="https://www.patrickgtr.ml/resume.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <FaBook size="3em" />
+                      <p>Resume</p>
+                    </a>
                   </span>
                 </AnimatedZoom>
               </div>
@@ -102,11 +128,13 @@ export default () => {
                       <div className="projects">
                         <AnimatedZoom scale={1.1}>
                           <figure>
-                            <img
-                              className="projects__logo"
-                              src="https://i.imgur.com/KV6uXsE.jpg"
-                              alt="Fortnite Stats"
-                            />
+                            <a href="https://fnstats.now.sh/">
+                              <img
+                                className="projects__logo"
+                                src="https://i.imgur.com/KV6uXsE.jpg"
+                                alt="Fortnite Stats"
+                              />
+                            </a>
                             <figcaption>
                               Project done in React and Next to show Fortnite
                               player statistics, news and item shop.
@@ -119,11 +147,13 @@ export default () => {
                       <div className="projects">
                         <AnimatedZoom scale={1.1}>
                           <figure>
-                            <img
-                              className="projects__logo"
-                              src="https://i.imgur.com/d8RmeyB.jpg"
-                              alt="User Control Panel"
-                            />
+                            <a href="https://ucpdemo.herokuapp.com">
+                              <img
+                                className="projects__logo"
+                                src="https://i.imgur.com/d8RmeyB.jpg"
+                                alt="User Control Panel"
+                              />
+                            </a>
                             <figcaption>
                               A User control panel made in Flask and Python. It
                               has basic login system that allows user to look at
@@ -150,11 +180,13 @@ export default () => {
                       <div className="projects">
                         <AnimatedZoom scale={1.1}>
                           <figure>
-                            <img
-                              className="projects__logo"
-                              src="https://i.imgur.com/rNKO8Fb.jpg"
-                              alt="Portfolio Template"
-                            />
+                            <a href="https://portfolio.patricksubang.now.sh/">
+                              <img
+                                className="projects__logo"
+                                src="https://i.imgur.com/rNKO8Fb.jpg"
+                                alt="Portfolio Template"
+                              />
+                            </a>
                             <figcaption>
                               A simple elegant portfolio template made with
                               React and Next
@@ -167,11 +199,13 @@ export default () => {
                       <div className="projects">
                         <AnimatedZoom scale={1.1}>
                           <figure>
-                            <img
-                              className="projects__logo"
-                              src="https://i.imgur.com/EMtU2yD.jpg"
-                              alt="Rockford Roleplay Website"
-                            />
+                            <a href="https://www.patrickgtr.ml/rockfordrp/">
+                              <img
+                                className="projects__logo"
+                                src="https://i.imgur.com/EMtU2yD.jpg"
+                                alt="Rockford Roleplay Website"
+                              />
+                            </a>
                             <figcaption>
                               A responsive design made of HTML5 and CSS3 made
                               for GTA V Multiplayer server.
@@ -191,11 +225,13 @@ export default () => {
                       <div className="projects">
                         <AnimatedZoom scale={1.1}>
                           <figure>
-                            <img
-                              className="projects__logo"
-                              src="https://i.imgur.com/gIwA6Lk.jpg"
-                              alt="Old Portfolio"
-                            />
+                            <a href="https://www.patrickgtr.ml/">
+                              <img
+                                className="projects__logo"
+                                src="https://i.imgur.com/gIwA6Lk.jpg"
+                                alt="Old Portfolio"
+                              />
+                            </a>
                             <figcaption>
                               My old portfolio (My very first website)
                             </figcaption>
@@ -207,11 +243,13 @@ export default () => {
                       <div className="projects">
                         <AnimatedZoom scale={1.1}>
                           <figure>
-                            <img
-                              className="projects__logo"
-                              src="https://i.imgur.com/4Hp5K03.jpg"
-                              alt="Madgex Assignment"
-                            />
+                            <a href="https://www.patrickgtr.ml/Madgex">
+                              <img
+                                className="projects__logo"
+                                src="https://i.imgur.com/4Hp5K03.jpg"
+                                alt="Madgex Assignment"
+                              />
+                            </a>
                             <figcaption>
                               An assignment task set by Madgex, to convert an
                               image of a web design into HTML/CSS/JS
