@@ -21,7 +21,8 @@ body {
     #243b55,
     #141e30
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-family: "Darker Grotesque";
+  font-size: 22px;
 }
 
 .site-wrapper {
@@ -55,7 +56,6 @@ figcaption {
 footer {
   text-align: center;
   color: white;
-  background: black;
   width: 100%;
   padding: 20px;
 }

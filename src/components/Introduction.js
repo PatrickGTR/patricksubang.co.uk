@@ -37,11 +37,11 @@ export default () => {
               >
                 About me
               </h1>
-              <strong>Hey there!</strong>
-              I love programming and hoping to make a career out of it, I love
-              building and designing websites. I love learning new things
-              whether it comes to programming or fitness and do it to my best
-              ability.
+              <strong>Hey there!</strong> I love programming and hoping to make
+              a career out of it, I love building and designing websites. I love
+              learning new things whether it comes to programming or fitness and
+              do it to my best ability.
+              <br />
               <br /> I'm originally from Philippines but currently residing in
               the county of East Sussex, United Kingdom.
             </article>

@@ -19,7 +19,12 @@ export default ({ title, subtitle, children }) => {
           </div>
         </main>
       </div>
-      <footer>Thank you for visiting my portfolio</footer>
+      <footer>
+        2019 &copy; Patrick Dave Subang{" "}
+        <span style={{ color: "grey", fontWeight: "bold" }}>
+          All rights reserved
+        </span>
+      </footer>
     </>
   );
 };
